@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashboard_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome Back!"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:textSize="30sp"
+            android:layout_marginVertical="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Where would you like to go?"
+            android:textColor="#EBEBEB"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/dasboard_card_res"
+            android:layout_marginVertical="15dp">
+            <LinearLayout
+                android:id="@+id/btnPatients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/view_patients"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="View Patients"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="View and manage patients"
+                    android:textColor="@color/text"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/btnStaff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/view_staffs"
+                android:padding="10dp"
+                android:layout_marginVertical="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="View Staffs"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="View and manage staffs"
+                    android:textColor="@color/text"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/btnResources"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/view_resources"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="View Resources"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="View and manage resources"
+                    android:textColor="@color/text"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:text="Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/primary_button_light"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/red"
+        android:textAllCaps="false"
+        android:elevation="0dp"
+        android:stateListAnimator="@null"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_marginVertical="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Powered by"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#AAAAAA"
+            android:gravity="center"
+            android:textSize="10sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KingTony Technologies"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#7BA8A0"
+            android:gravity="center"
+            android:textSize="10sp"/>
+    </LinearLayout>
+</LinearLayout>
