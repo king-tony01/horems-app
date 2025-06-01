@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -29,7 +30,7 @@ import retrofit2.Response;
 public class StaffActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private ProgressBar progressBar;
-    private FloatingActionButton fabAddStaff;
+    private LinearLayout fabAddStaff;
     private ImageButton back_button;
     private ApiService apiService;
 

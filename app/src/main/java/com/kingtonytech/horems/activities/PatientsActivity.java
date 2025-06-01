@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -52,7 +53,7 @@ public class PatientsActivity extends AppCompatActivity {
             finish();
         });
 
-        FloatingActionButton fabAdd = findViewById(R.id.fabAddPatient);
+        LinearLayout fabAdd = findViewById(R.id.fabAddPatient);
         fabAdd.setOnClickListener(v -> {
             startActivity(new Intent(PatientsActivity.this, AddPatientActivity.class));
         });

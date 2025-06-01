@@ -58,7 +58,9 @@
                 android:fontFamily="@font/poppins_medium"
                 android:textColorHint="@color/placeholder"
                 android:textColor="@color/black"
-                android:textSize="14sp"/>
+                android:textSize="14sp"
+                android:drawableStart="@drawable/user_grey"
+                android:drawablePadding="10dp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -101,7 +103,9 @@
             android:textColorHint="@color/placeholder"
             android:fontFamily="@font/poppins_medium"
             android:background="@drawable/input_bg"
-            android:textSize="14sp"/>
+            android:textSize="14sp"
+            android:drawableStart="@drawable/key"
+            android:drawablePadding="10dp"/>
         </LinearLayout>
 
         <TextView
@@ -151,7 +155,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="KingTony Technologies"
+                android:text="Information Technology (FUTO)"
                 android:fontFamily="@font/poppins_medium"
                 android:textColor="#7BA8A0"
                 android:gravity="center"

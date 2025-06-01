@@ -1,6 +1,7 @@
 package com.kingtonytech.horems.network;
 
 import com.kingtonytech.horems.models.BaseResponse;
+import com.kingtonytech.horems.models.OverviewResponse;
 import com.kingtonytech.horems.models.Patient;
 import com.kingtonytech.horems.models.PatientListResponse;
 import com.kingtonytech.horems.models.Resource;
@@ -25,6 +26,9 @@ public interface ApiService {
 
     @POST("auth/logout")
     Call<BaseResponse> logout();
+
+    @GET("overview")
+    Call<OverviewResponse> getOverview();
 
     // 👨‍⚕️ Patients
     @GET("patients")

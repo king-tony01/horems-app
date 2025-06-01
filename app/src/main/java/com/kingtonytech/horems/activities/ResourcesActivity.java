@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -30,7 +31,7 @@ import retrofit2.Response;
 public class ResourcesActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private ProgressBar progressBar;
-    private FloatingActionButton fabAdd;
+    private LinearLayout fabAdd;
 
     private ImageButton back_button;
     private ApiService apiService;
